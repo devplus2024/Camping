@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camping About Us</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <script src="./Javascript/script.js"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <style>
+      .slick-slide img {
+        width: 100%;
+      }
+    </style>
+    <style>
+      .newclass {
+        display: block;
+      }
+      .existingClass {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="">
+        <div class="p-4 flex gap-[18rem] relative">
+          <div class="top-1/2 -translate-y-1/2 absolute">
+            <img src="./Svg/logopre.svg" alt="" />
+          </div>
+          <div
+            class="flex gap-7 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-100"
+          >
+            <a href="index.html" class="">Home</a>
+            <a href="shop-now.html" class="">Shop Now</a>
+            <a href="about-us.html" class="font-[Meow Script]">About Us</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="ml-auto">
+            <button class="px-6 py-3 border-2 border-black">Sign Up</button>
+            <button class="bg-black px-8 py-3 border-2 border-black text-white">
+              Login
+            </button>
+          </div>
+        </div>
+        <div></div>
+        <hr />
+      </nav>
+    </header>
+    <main>
+      <div class="slider">
+        <div><img src="image1.jpg" alt="Image 1"></div>
+        <div><img src="image2.jpg" alt="Image 2"></div>
+        <div><img src="image3.jpg" alt="Image 3"></div>
+        <div><img src="image4.jpg" alt="Image 4"></div>
+      </div>
+    </main>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: true,
+      });
+    });
+  </script>
+</html>

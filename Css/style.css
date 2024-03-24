@@ -1,0 +1,47 @@
+
+.button {
+  color: #ffffff;
+  background: rgb(0, 68, 255);
+  border: 1px solid #1d9af2;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+  cursor: url("/Cursor/link.cur"), auto;
+  font: Metric, Segoe UI, Ubuntu Mono, sans-serif;
+}
+.button:hover {
+  box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+  transform: translateX(-3px);
+}
+
+body {
+  cursor: url("/Cursor/pointer.cur"), auto;
+}
+
+a,
+p {
+  cursor: url("/Cursor/link.cur"), auto;
+  font: Metric, Segoe UI, Ubuntu Mono, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+a {
+  padding: -53px;
+}
+
+.owl-carousel .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.arleft:hover{
+    svg{
+      transform: translateX(50%);
+    }  
+}
+
